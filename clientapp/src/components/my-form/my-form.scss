@@ -1,0 +1,121 @@
+
+.bd-example{
+    margin: .10rem;
+    padding: .10rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+button, input {
+    overflow: visible;
+}
+
+select {
+    word-wrap: normal;
+}
+
+button, select {
+text-transform: none;
+}
+
+select.form-control[multiple], select.form-control[size] {
+    height: auto;
+}
+
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  textarea{
+      height: calc(1.5em + .75em + 4.375em + 2px) !important;
+  }
+
+  *, ::after, ::before {
+    box-sizing: border-box;
+  }
+
+  input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  .form-check-input {
+    position: absolute;
+    margin-top: .3rem;
+  }
+
+  .form-check-label {
+    margin-left: 1rem;
+  }
+
+  .form-check {
+    position: relative;
+    display: block;
+  }
+
+  [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  [type="button"], [type="reset"], [type="submit"], button {
+    -webkit-appearance: button;
+  }
+
+  .invalid{
+      color: red;
+  }
